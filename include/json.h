@@ -92,7 +92,7 @@ namespace crow
                 case type::Object: return "Object";
                 default: return "Unknown";
             }
-        };
+        }
 
         class rvalue;
         rvalue load(const char* data, size_t size);

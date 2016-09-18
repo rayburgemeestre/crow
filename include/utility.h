@@ -130,18 +130,18 @@ struct parameter_tag<t> \
 { \
     static const int value = i; \
 };
-        CROW_INTERNAL_PARAMETER_TAG(int, 1);
-        CROW_INTERNAL_PARAMETER_TAG(char, 1);
-        CROW_INTERNAL_PARAMETER_TAG(short, 1);
-        CROW_INTERNAL_PARAMETER_TAG(long, 1);
-        CROW_INTERNAL_PARAMETER_TAG(long long, 1);
-        CROW_INTERNAL_PARAMETER_TAG(unsigned int, 2);
-        CROW_INTERNAL_PARAMETER_TAG(unsigned char, 2);
-        CROW_INTERNAL_PARAMETER_TAG(unsigned short, 2);
-        CROW_INTERNAL_PARAMETER_TAG(unsigned long, 2);
-        CROW_INTERNAL_PARAMETER_TAG(unsigned long long, 2);
-        CROW_INTERNAL_PARAMETER_TAG(double, 3);
-        CROW_INTERNAL_PARAMETER_TAG(std::string, 4);
+        CROW_INTERNAL_PARAMETER_TAG(int, 1)
+        CROW_INTERNAL_PARAMETER_TAG(char, 1)
+        CROW_INTERNAL_PARAMETER_TAG(short, 1)
+        CROW_INTERNAL_PARAMETER_TAG(long, 1)
+        CROW_INTERNAL_PARAMETER_TAG(long long, 1)
+        CROW_INTERNAL_PARAMETER_TAG(unsigned int, 2)
+        CROW_INTERNAL_PARAMETER_TAG(unsigned char, 2)
+        CROW_INTERNAL_PARAMETER_TAG(unsigned short, 2)
+        CROW_INTERNAL_PARAMETER_TAG(unsigned long, 2)
+        CROW_INTERNAL_PARAMETER_TAG(unsigned long long, 2)
+        CROW_INTERNAL_PARAMETER_TAG(double, 3)
+        CROW_INTERNAL_PARAMETER_TAG(std::string, 4)
 #undef CROW_INTERNAL_PARAMETER_TAG
         template <typename ... Args>
         struct compute_parameter_tag_from_args_list;
